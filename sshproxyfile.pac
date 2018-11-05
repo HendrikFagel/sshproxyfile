@@ -36,7 +36,9 @@ function FindProxyForURL(url, host)
         ,'ytimg.com'
     ];
     
-    var exp_list = [ ];
+    var exp_list = [
+      ,'sat1.de'
+    ];
 
     for(var index = 0;index<site_list.length;index++){
          if(host==site_list[index] ||
